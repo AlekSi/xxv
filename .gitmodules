@@ -1,0 +1,3 @@
+[submodule "xsf"]
+	path = xsf
+	url = git://github.com/xsf/documentation.git
