@@ -1,0 +1,8 @@
+XXV – XMMP Schema Validator
+(stupid name)
+===========================
+
+How to use:
+1) Run 'generate.rb' to generate all.xsd, report errors in schemas to http://athena.jabber.org:18081/browse/SPEC ;)
+2) Dump XMPP stream to stream.xml.
+3) Run 'xmllint --noout --nonet --valid --schema all.xsd stream.xml'
